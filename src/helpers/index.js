@@ -1,4 +1,4 @@
-export const addToLS = (key, value) => {
-  const serializedValue = JSON.stringify(value);
-  localStorage.setItem(key, serializedValue);
-};
+import {addToLS} from "./addToLS.js";
+import {getFromLS} from "./getFromLS.js";
+
+export {addToLS, getFromLS};
