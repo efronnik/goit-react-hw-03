@@ -1,3 +1,5 @@
+import {FaPhoneAlt} from "react-icons/fa";
+import {FaUser} from "react-icons/fa6";
 import css from "./Contact.module.css";
 
 const Contact = ({id, name, number, handleDeleteContact}) => {
